@@ -1,0 +1,50 @@
+#home {
+      //background-image: url(../images/resto-2.jpg);
+      //background-repeat: no-repeat;
+      //background-size: cover;
+      height: 55.6em;
+  nav {
+    background-color: transparent;
+    border: transparent;
+      }
+    a{
+
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+
+
+     }
+
+  .unique{
+        font-size: 3em;
+        font-family: 'Pacifico', cursive;
+         }
+
+
+  .carousel-start {
+    position: relative;
+  }
+  .tasty-img {
+   .tasty {
+     position: absolute;
+     top: 11em;
+     left: 31em;
+   }
+   .tasty-data {
+     position: absolute;
+     top: 32em;
+     left: 36.5em;
+   }
+   .tasty-data-left {
+     position: absolute;
+     top: 32.3em;
+     left: 20em;
+   }
+   .tasty-data-right {
+     position: absolute;
+     top: 32.3em;
+     left: 76em;
+   }
+  }
+}

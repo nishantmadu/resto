@@ -1,0 +1,35 @@
+body {
+  font-family: 'Lobster', cursive; }
+
+#home {
+  height: 55.6em; }
+  #home nav {
+    background-color: transparent;
+    border: transparent; }
+  #home a {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em; }
+  #home .unique {
+    font-size: 3em;
+    font-family: 'Pacifico', cursive; }
+  #home .carousel-start {
+    position: relative; }
+  #home .tasty-img .tasty {
+    position: absolute;
+    top: 11em;
+    left: 31em; }
+  #home .tasty-img .tasty-data {
+    position: absolute;
+    top: 32em;
+    left: 36.5em; }
+  #home .tasty-img .tasty-data-left {
+    position: absolute;
+    top: 32.3em;
+    left: 20em; }
+  #home .tasty-img .tasty-data-right {
+    position: absolute;
+    top: 32.3em;
+    left: 76em; }
+
+/*# sourceMappingURL=app.css.map */

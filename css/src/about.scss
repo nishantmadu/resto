@@ -1,0 +1,57 @@
+#about {
+ .about-container {
+   max-height: 54em;
+   position: relative;
+   .about-row {
+     height: 54em;
+     .about-data-col {
+       height: 100%;
+       h5 {
+         position: absolute;
+         font-family: $welcome-about-font;
+         font-size: 60px;
+         color: $headings-text-color;
+         top: 26%;
+         left: 30%;
+       }
+       h6 {
+         position: absolute;
+         font-family: 'Montserrat', sans-serif;
+         font-size: 2em;
+         font-weight: 700;
+         text-transform: uppercase;
+         top: 37%;
+         left: 33%;
+         sup {
+           font-weight: 500;
+         }
+       }
+
+       p {
+         position: absolute;
+         font-family: 'Dancing Script', cursive;
+         font-size: 31px;
+         font-weight: 120;
+         line-height: 1.6em;
+         font-style: italic;
+         color: $primary-text-color;
+         top: 48%;
+         left: 5%
+       }
+     }
+     .about-image-col {
+       height: 100%;
+       .about-orange-image {
+         position: absolute;
+         left: 14.5vh;
+         bottom: 11vh;
+       }
+       .about-blueberry-image {
+         position: absolute;
+         bottom: 38vh;
+         right: 0vh;
+       }
+     }
+   }
+ }
+}

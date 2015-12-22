@@ -2,7 +2,9 @@
       //background-image: url(../images/resto-2.jpg);
       //background-repeat: no-repeat;
       //background-size: cover;
-      height: 55.6em;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      height: 57em;
   nav {
     background-color: transparent;
     border: transparent;
@@ -24,6 +26,13 @@
 
   .carousel-start {
     position: relative;
+    .carousel-indicators {
+      left: 92%;
+      .active {
+        color: #FFF;
+        border: 2px solid black;
+      }
+    }
   }
   .tasty-img {
    .tasty {

@@ -1,8 +1,55 @@
 body {
   font-family: 'Lobster', cursive; }
 
+#about .about-container {
+  max-height: 54em;
+  position: relative; }
+  #about .about-container .about-row {
+    height: 54em; }
+    #about .about-container .about-row .about-data-col {
+      height: 100%; }
+      #about .about-container .about-row .about-data-col h5 {
+        position: absolute;
+        font-family: "Great Vibes", cursive;
+        font-size: 60px;
+        color: #966589;
+        top: 26%;
+        left: 30%; }
+      #about .about-container .about-row .about-data-col h6 {
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2em;
+        font-weight: 700;
+        text-transform: uppercase;
+        top: 37%;
+        left: 33%; }
+        #about .about-container .about-row .about-data-col h6 sup {
+          font-weight: 500; }
+      #about .about-container .about-row .about-data-col p {
+        position: absolute;
+        font-family: 'Dancing Script', cursive;
+        font-size: 31px;
+        font-weight: 120;
+        line-height: 1.6em;
+        font-style: italic;
+        color: #73848e;
+        top: 48%;
+        left: 5%; }
+    #about .about-container .about-row .about-image-col {
+      height: 100%; }
+      #about .about-container .about-row .about-image-col .about-orange-image {
+        position: absolute;
+        left: 14.5vh;
+        bottom: 11vh; }
+      #about .about-container .about-row .about-image-col .about-blueberry-image {
+        position: absolute;
+        bottom: 38vh;
+        right: 0vh; }
+
 #home {
-  height: 55.6em; }
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 57em; }
   #home nav {
     background-color: transparent;
     border: transparent; }
@@ -15,6 +62,11 @@ body {
     font-family: 'Pacifico', cursive; }
   #home .carousel-start {
     position: relative; }
+    #home .carousel-start .carousel-indicators {
+      left: 92%; }
+      #home .carousel-start .carousel-indicators .active {
+        color: #FFF;
+        border: 2px solid black; }
   #home .tasty-img .tasty {
     position: absolute;
     top: 11em;

@@ -84,4 +84,25 @@ body {
     top: 32.3em;
     left: 76em; }
 
+#ingredients {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 451.667px; }
+  #ingredients .ingredient2-image {
+    position: relative; }
+  #ingredients .underlined-heading {
+    position: absolute;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #966589;
+    text-decoration: none;
+    left: 1vh;
+    top: 19vh;
+    background-color: #FFF;
+    width: 58.25vh;
+    height: 15vh;
+    text-align: center;
+    padding-top: 5vh; }
+
 /*# sourceMappingURL=app.css.map */

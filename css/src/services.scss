@@ -1,4 +1,4 @@
-#image {
+#services {
 
   .row {
     height:400px;
@@ -39,6 +39,7 @@
     color:$primary-text-color;
     line-height: 30px;
     text-align: center;
+    font-family: 'Poiret One', cursive;
     }
 
   .zoom-effect-container {
@@ -67,8 +68,5 @@
     transform: scale(1.08);
   }
 
-p {
-  color: #000;
-}
 
 }

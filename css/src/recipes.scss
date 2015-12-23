@@ -1,0 +1,28 @@
+#recipes {
+ overflow-x: hidden;
+ overflow-y: hidden;
+
+ .recipes-container {
+   position: relative;
+ }
+
+ img {
+  height: 451.667px
+ }
+
+ h6 {
+   position: absolute;
+   font-family: $welcome-about-font;
+   font-weight: 400;
+   font-size: 60px;
+   color: $secondary-heading-color;
+   text-decoration: none;
+   left: 33.9vw;
+   top: 13vw;
+   background-color: $text-white-color;
+   width: 58.25vh;
+   height: 15vh;
+   text-align: center;
+   padding-top: 5vh;
+ }
+}

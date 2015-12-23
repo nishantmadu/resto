@@ -1,0 +1,62 @@
+#menu {
+background-image: url(../images/menu-background-image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+overflow-x: hidden;
+overflow-y: hidden;
+height:150vh;
+
+.nav-pills > li {
+   background-color: #808080 ;
+}
+.row {
+  width: 100%;
+
+  h6 {
+    text-align: left;
+    color: $text-white-color;
+    font-family: $menu-font;
+    font-size:2em;
+    font-weight: 700;
+  }
+
+  span {
+    text-align: left;
+    color: $text-white-color;
+    font-family: $menu-font;
+    font-size: 1em;
+    font-weight: 400;
+
+  }
+
+  .food-price {
+    text-align: right;
+
+  }
+
+  .food-details {
+    position: relative;
+    .price {
+      position: absolute;
+      right: 6vh;
+    }
+  }
+
+  .food {
+    margin-top: 12vh;
+  }
+
+}
+h1 {
+  color: $text-white-color;
+  font-family: $welcome-about-font;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.5em;
+  padding-top: 10vh;
+span {
+    color:$orange-color;
+    font-family: $welcome-about-font;
+  }
+}
+}
